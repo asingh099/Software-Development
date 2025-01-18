@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Farm Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <h1>Vertical Farm Calculator</h1>
+    <ul>
+        <li><a href="homeScreen.html">Home</a></li>
+    </ul>
+    <label for="numOfFloors">Number of Floors</label>
+    <input type="number" id="numOfFloors">
+    <label for="width">Width (ft.)</label>
+    <input type="number" id="width" min="10">
+    <label for="length">Length (ft.)</label>
+    <input type="number" id="length" min="10">
+    <label for="height">Ceiling Height</label>
+    <input type="number" id="height" min="6">
+    <label for="numOfWeeks">Number of Weeks</label>
+    <input type="number" id="numOfWeeks">
+    <input type="submit" id="submit" value="Create Floors" onclick="createFloors()">
+    <script src="learn.js">
+
+    </script>
+</body>
+</html>
